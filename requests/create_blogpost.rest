@@ -1,0 +1,10 @@
+POST http://localhost:3003/api/blogs
+Content-Type: application/json
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6IklzbW8iLCJpZCI6IjVkMmYwMjJkMDExMDVkNDM4NGQwZDQ1MSIsImlhdCI6MTU2MzM3MTgxOX0.CuivGAQu1plA7iB9X_7ynWmyOdkrW6TydnQI2CW7mcg
+
+{
+  "title": "4d testing",
+  "author": "Dan Abramov",
+  "url": "www.google.com",
+  "likes": 2
+}
